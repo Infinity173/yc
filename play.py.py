@@ -9,10 +9,10 @@ for a in range(999):
             break
             pass
         elif ages > age :
-            print('对不起，猜大了哦')
+            print('猜大了哦')
             continue
         elif ages < age :
-            print('对不起，猜小了喔')
+            print('猜小了喔')
             continue
         else:
             print('信息识别错误')

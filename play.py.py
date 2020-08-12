@@ -20,7 +20,7 @@ for a in range(999):
         break
     else:
       for b in range(999):
-         change=input('您已经答错3次了，请问您是否愿意继续？')
+         change=input('请问您是否愿意继续？')
          if change=='Y' or change=='y':
                 print('请您继续')
                 break

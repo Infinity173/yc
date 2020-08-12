@@ -3,7 +3,7 @@ age=int(random.randint(1,30))
 GameOver=0
 for a in range(999):
     for i in range(3):
-        ages = int(input('猜猜这个数是多大？'))
+        ages = int(input('猜猜数是多大？'))
         if age == ages:
             print('恭喜你，答对了')
             break
